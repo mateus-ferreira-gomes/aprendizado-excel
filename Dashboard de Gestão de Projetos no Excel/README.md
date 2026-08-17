@@ -42,34 +42,35 @@ Então, foi criada uma Tabela Dinâmica para resumir, organizar e facilitar a an
 ## 📐 Construção e Design do Dashboard
 
 ### 13. Extração dos Resultados
-Para começar a criar o Dashboard, precisei extrair os resultados da tabela dinâmica para cima de cada uma referenciando esse resultado, para que dentro do dashboard eu possa criar os cartões.
+Para começar a criar o Dashboard, precisei extrair os resultados da tabela dinâmica para cima de cada uma referenciando esse resultado, para que dentro do dashboard eu possa criar os cartões de KPIs.
 
-![Extraindo Resultados da Tabela Dinâmica](Base%20de%20dados/Prints/extraindo_resultados_tabela_dinamica.png)
+![Extraindo Resultados da Tabela Dinâmica](Prints/extraindo_resultados_tabela_dinamica.png)
 
 ### 14. Layout Inicial
 Criei uma nova planilha com nome de DashBoard e comecei a criação do design com as formas. Então removi a exibição das linhas de grade para que o visual ficasse mais atraente, e a versão inicial ficou assim:
 
-![Layout Inicial](Base%20de%20dados/Prints/leyout-inicial.png)
+![Layout Inicial](Prints/leyout-inicial.png)
 
 ### 15. Adição dos Cartões
 Então finalizei a primeira etapa do dashboard, que foi colocar os cartões:
 
-![Adicionando Cartões no Dashboard](Base%20de%20dados/Prints/add-cartoes-dash.png)
+![Adicionando Cartões no Dashboard](Prints/add-cartoes-dash.png)
 
 ### 16. Segmentação de Dados (Filtros)
 Nessa etapa adicionei uma segmentação de dados para que seja possível filtrar por área. Fiz também a conexão com todos os cartões do dashboard.
 
-![Segmentação por Área](Base%20de%20dados/Prints/add-seguimentacao-area.png)  
-![Conexão da Segmentação](Base%20de%20dados/Prints/segmentacao-conexao-todo_realatorio.png)
+![Segmentação por Área](Prints/add-seguimentacao-area.png)  
+![Conexão da Segmentação](Prints/segmentacao-conexao-todo_realatorio.png)
 
 ---
+
 
 ## 📈 Visualizações e Gráficos
 
 ### 17. Primeiro Gráfico (Orçamento x Custo x Saldo Mês a Mês)
 Para o primeiro gráfico escolhi o modelo de Barras, fiz a diferença do valor do orçamento aprovado com o custo real para poder obter o saldo mês a mês. Precisei criar uma coluna auxiliar de saldo dentro da tabela.
 
-![Primeiro Gráfico](Base%20de%20dados/Prints/Primeiro-grafico.png)
+![Primeiro Gráfico](Prints/Primeiro-grafico.png)
 
 ### 18. Segundo Gráfico (Análise por Prioridade)
 O segundo gráfico escolhi o modelo de rosca. Nesse gráfico fiz a análise de prioridade, sendo alta, média e baixa. Criei uma outra tabela dinâmica e arrastei a coluna prioridade para linhas e para valores para que seja somado quanto de cada prioridade foi obtido.
@@ -79,3 +80,8 @@ Para o terceiro gráfico decidi calcular a duração média de cada projeto mês
 
 ### 20. Últimos Gráficos (Top 10 Maiores e Menores Prazos)
 Para os últimos gráficos decidi analisar os 10 maiores e menores prazos por projetos, para saber quais são os 10 projetos que foram finalizados de forma mais rápida e os 10 que mais demoraram (Top 10).
+
+### 21. Layout Final do Dashboard
+Após todas as etapas de construção, análises, segmentações e gráficos, o dashboard foi finalizado com sucesso. O resultado final integra todos os cartões de KPIs, os gráficos analíticos, os filtros de segmentação e proporciona uma visão completa e dinâmica da gestão de projetos.
+
+![Dashboard Final](Prints/layout-final.png)
