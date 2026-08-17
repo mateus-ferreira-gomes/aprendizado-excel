@@ -18,7 +18,7 @@ O objetivo deste espaço é documentar o aprendizado contínuo na ferramenta, ap
 Ao longo dos projetos contidos neste repositório, são explorados os seguintes recursos do Excel:
 
 * **Tratamento e Organização de Dados:** Padronização de formatos, remoção de duplicatas e uso de tabelas estruturadas.
-Fórmulas e Funções: Lógicas (⁠SE⁠, ⁠E⁠, ⁠OU⁠), buscas (⁠PROCV⁠, ⁠CORRESP⁠, ⁠XLOOKUP⁠), estatísticas e contagem (⁠SOMA⁠, ⁠MÉDIA⁠, ⁠MÁXIMO⁠, ⁠MÍNIMO⁠, ⁠CONTE.VALORES⁠, ⁠CONTAR.VAZIO⁠), manipulação de texto, porcentagem e cálculos de prazos/datas.* **Tabelas e Gráficos Dinâmicos:** Consolidação de dados, criação de agrupamentos, campos calculados e métricas personalizadas.
+* FÓRMULAS E FUNÇÕES: Lógicas (⁠SE⁠, ⁠E⁠, ⁠OU⁠), buscas (⁠PROCV⁠, ⁠CORRESP⁠, ⁠XLOOKUP⁠), estatísticas e contagem (⁠SOMA⁠, ⁠MÉDIA⁠, ⁠MÁXIMO⁠, ⁠MÍNIMO⁠, ⁠CONTE.VALORES⁠, ⁠CONTAR.VAZIO⁠), manipulação de texto, porcentagem e cálculos de prazos/datas.* **Tabelas e Gráficos Dinâmicos:** Consolidação de dados, criação de agrupamentos, campos calculados e métricas personalizadas.
 * **Criação de Dashboards:** Construção de relatórios visuais focados em experiência do usuário (UI), cartões de indicadores (KPIs) e eliminação de linhas de grade.
 * **Interatividade:** Implementação de Segmentação de Dados (filtros interativos) e conexões de relatórios entre múltiplos elementos gráficos.
 
