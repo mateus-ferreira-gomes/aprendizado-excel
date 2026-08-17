@@ -44,23 +44,23 @@ Então, foi criada uma Tabela Dinâmica para resumir, organizar e facilitar a an
 ### 13. Extração dos Resultados
 Para começar a criar o Dashboard, precisei extrair os resultados da tabela dinâmica para cima de cada uma referenciando esse resultado, para que dentro do dashboard eu possa criar os cartões.
 
-![Extraindo Resultados da Tabela Dinâmica](Base%20de%20dados/Imagens/extraindo_resultados_tabela_dinamica.png)
+![Extraindo Resultados da Tabela Dinâmica](Base%20de%20dados/Prints/extraindo_resultados_tabela_dinamica.png)
 
 ### 14. Layout Inicial
 Criei uma nova planilha com nome de DashBoard e comecei a criação do design com as formas. Então removi a exibição das linhas de grade para que o visual ficasse mais atraente, e a versão inicial ficou assim:
 
-![Layout Inicial](Base%20de%20dados/Imagens/leyout-inicial.png)
+![Layout Inicial](Base%20de%20dados/Prints/leyout-inicial.png)
 
 ### 15. Adição dos Cartões
 Então finalizei a primeira etapa do dashboard, que foi colocar os cartões:
 
-![Adicionando Cartões no Dashboard](Base%20de%20dados/Imagens/add-cartoes-dash.png)
+![Adicionando Cartões no Dashboard](Base%20de%20dados/Prints/add-cartoes-dash.png)
 
 ### 16. Segmentação de Dados (Filtros)
 Nessa etapa adicionei uma segmentação de dados para que seja possível filtrar por área. Fiz também a conexão com todos os cartões do dashboard.
 
-![Segmentação por Área](Base%20de%20dados/Imagens/add-seguimentacao-area.png)  
-![Conexão da Segmentação](Base%20de%20dados/Imagens/segmentacao-conexao-todo_realatorio.png)
+![Segmentação por Área](Base%20de%20dados/Prints/add-seguimentacao-area.png)  
+![Conexão da Segmentação](Base%20de%20dados/Prints/segmentacao-conexao-todo_realatorio.png)
 
 ---
 
@@ -69,7 +69,7 @@ Nessa etapa adicionei uma segmentação de dados para que seja possível filtrar
 ### 17. Primeiro Gráfico (Orçamento x Custo x Saldo Mês a Mês)
 Para o primeiro gráfico escolhi o modelo de Barras, fiz a diferença do valor do orçamento aprovado com o custo real para poder obter o saldo mês a mês. Precisei criar uma coluna auxiliar de saldo dentro da tabela.
 
-![Primeiro Gráfico](Base%20de%20dados/Imagens/Primeiro-grafico.png)
+![Primeiro Gráfico](Base%20de%20dados/Prints/Primeiro-grafico.png)
 
 ### 18. Segundo Gráfico (Análise por Prioridade)
 O segundo gráfico escolhi o modelo de rosca. Nesse gráfico fiz a análise de prioridade, sendo alta, média e baixa. Criei uma outra tabela dinâmica e arrastei a coluna prioridade para linhas e para valores para que seja somado quanto de cada prioridade foi obtido.
